@@ -7,10 +7,8 @@ A real-time American Sign Language (ASL) recognition system that uses hand landm
 
 ## 📸 Demo
 
-<video width="600" controls>
-  <source src="demovideo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[🎥 Watch demo video](./demovideo.mp4)
+
 
 
 ---
