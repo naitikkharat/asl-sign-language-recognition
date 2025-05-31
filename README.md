@@ -1,27 +1,84 @@
-# ASL Sign Language Recognition
 
-This project is a real-time American Sign Language (ASL) recognition system that uses hand landmarks and TensorFlow Lite (TFLite) models. It converts ASL gestures into letters, words, and speech.
+# 🤟 ASL Sign Language Recognition
 
-## Features
+A real-time American Sign Language (ASL) recognition system that uses hand landmarks and a TensorFlow Lite model to predict letters from webcam input. The system includes a live GUI that builds words and converts them into speech using `pyttsx3`.
 
-- Real-time video input
-- Hand gesture recognition using landmarks
-- ASL to Text and Speech conversion
-- GUI and Non-GUI versions
+---
 
-## Files
+## 📸 Demo
 
-- `AtoZ_3.1/` - Model or data files for ASL classification
-- `From_table_of_content_report_s2t.docx` - Project report
-- `G18_Poster.pdf` - Poster presentation
-- `VIVA_PRESENTATION (2).pptx` - Viva presentation slides
-- `data_collection_binary.py` - Script for binary format data collection
-- `data_collection_final.py` - Final data collection script
-- `final_pred.py` - Final prediction script
-- `prediction_wo_gui.py` - ASL prediction without GUI
-- `white.jpg` - Reference or sample image
+![Demo](assets/demo.gif) <!-- Add a demo GIF or screenshot here -->
 
-## Author
+---
 
-**Naitik Kharat**  
-Email: naitikkharat@gmail.com
+## 🛠 Tech Stack
+
+- 🐍 Python
+- 🖼 OpenCV & CvZone
+- 🤖 MediaPipe
+- 🧠 TensorFlow Lite (TFLite)
+- 🗣 pyttsx3 (text-to-speech)
+- 🖥 Tkinter (GUI)
+
+---
+
+## 🚀 Features
+
+- Real-time hand tracking and gesture recognition
+- Predicts ASL letters using a TFLite model
+- Builds words and converts to speech
+- GUI to display letter, word, and clear/reset buttons
+- Lightweight, fast, and efficient
+
+---
+
+## 📂 Folder Structure
+
+```
+asl-sign-language-recognition/
+├── model/
+│   └── asl_model.tflite
+├── src/
+│   ├── main.py
+│   ├── gui.py
+│   └── utils.py
+├── assets/
+│   └── demo.gif
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ How to Run
+
+### 📦 Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Run the app
+```bash
+python src/main.py
+```
+
+> Make sure your webcam is connected and functional.
+
+---
+
+## 🎯 Future Improvements
+
+- Expand to full-word and sentence recognition
+- Add support for custom gestures
+- Deploy as a web or mobile app
+
+---
+
+## 🧠 About the Creator
+
+Built with ❤️ by [Naitik Kharat](https://www.linkedin.com/in/naitikkharat/)  
+Check out my portfolio: [naitikkharat.github.io/portfolio_Naitik](https://naitikkharat.github.io/portfolio_Naitik/)
+
+---
+
+## 🌟 Don't forget to leave a ⭐ if this project helped you!
