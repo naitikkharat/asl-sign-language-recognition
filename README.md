@@ -76,7 +76,7 @@ python src/main.py
 
 ## 🧠 About the Creator
 
-Built with ❤️ by [Naitik Kharat](https://www.linkedin.com/in/naitikkharat/)  
+Built by [Naitik Kharat](https://www.linkedin.com/in/naitikkharat/)  
 Check out my portfolio: [naitikkharat.github.io/portfolio_Naitik](https://naitikkharat.github.io/portfolio_Naitik/)
 
 ---
